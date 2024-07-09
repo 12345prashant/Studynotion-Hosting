@@ -1,0 +1,9 @@
+1. install : npm i concurrently : this will ensure that both frontend and backend run simuntaneously
+2. added these two lines in package.json , under scripts tag: 
+"server": "cd server && npm run dev",
+"dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+
+3. install react-router-dom
+
+
+4. installed , npm i type-animation for that beautiful coding animation
